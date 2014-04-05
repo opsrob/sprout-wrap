@@ -8,7 +8,6 @@ recipes:
 # settings
 - pivotal_workstation::sshd_on
 - pivotal_workstation::inputrc
-- pivotal_workstation::zsh
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::global_environment_variables
 - sprout-osx-settings::set_menubar_clock_format
@@ -34,6 +33,8 @@ recipes:
 - sprout-osx-apps::macvim
 
 - sprout-homebrew
+- pivotal_workstation::zsh
+
 
 node_attributes:
   git_projects:
