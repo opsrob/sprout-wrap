@@ -33,7 +33,6 @@ recipes:
 - sprout-osx-apps::macvim
 
 - sprout-homebrew
-- pivotal_workstation::zsh
 
 
 node_attributes:
